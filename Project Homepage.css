@@ -1,0 +1,261 @@
+html {background-color: rgb(247, 224, 255);
+}
+.brand-color {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 147, 44);
+}
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 87%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.image-banner {
+    position: relative;
+    top: 10px;
+    right: 0px;
+}
+.image-banner img {
+    display: block;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.site-nav a {
+    text-decoration: none;
+    color: seagreen;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-bottom: none;
+    display: block;
+}
+.site-nav a:hover {
+    background-color: seashell;
+}
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+@media screen and (max-width:700px) {
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3px solid #e5e9dc;
+    }
+}
+.content-area {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    background-image: url(../jpeg\ folder/Grid.jpg);
+    background-repeat: repeat-x;
+    background-size: 20px 40px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width:480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+form {
+    background-color: papayawhip;
+    padding: 30px 40px;
+}
+
+.box1 {
+    background-image: url(../babypinkhe.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+input [type= "submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: lightpink;
+    color: #fff;
+    padding: 10px 0;
+    border: 1px solid lightpink;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input [type="submit"]:hover,
+input [type="submit"]:focus {
+    border: 1px solid #535e3b;
+    background-color:#798A56 ;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.col-fave {
+    width: 60%;
+}
+
+.col-P, .col-Q {
+    width: 20%;
+}
+
+table th {
+    text-align: left;
+    background-color: darkseagreen;
+    color: #fff;
+    text-shadow: 1px 1px grey;
+    
+}
+
+table th, table td {
+    border: 1px solid darkseagreen;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #e5e9dc;
+}
+table tr :nth-child(2),
+table tr :nth-child(3) {
+    text-align: center;
+}
+
+header {
+    padding-top: 20px;
+    color: rosybrown;
+}
+header h1 {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 10px 1px #999999;
+    font-size: 165%;
+    font-style: normal;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+header p {
+    font-size: 100%;
+    text-align: justify;
+    color: green;
+    margin-top: 10px;
+}
+header p a {
+    text-decoration: none;
+}
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: rgb(26, 137, 85);
+    line-height: 2;
+}
+.mainarea {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:480px) {
+    .hide-small {
+        display: none;
+    }
+}
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: white;
+    background-image: linear-gradient(to bottom, white, antiquewhite);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.fix {
+    clear: both;
+}
+@media screen and (max-width:700px) {
+    .mainarea,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .mainarea {
+        padding-right: 0;
+    }
+}
+header p {
+    color: lightcoral;
+}
+header p span {
+    color: lightsalmon;
+}
+h1 {
+    color: rgb(215, 87, 109);
+    font-size:  165%;
+    font-weight: normal;
+    text-align: center;
+}
+.highlight {
+    color: black;
+    background-color:white;
+}
+p {
+    color: black;
+}
+footer p {
+    color: black;
+    text-align: center;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*grid system*/
+.col {
+    float: left;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    }
+.col-xs-6 {
+    width: 50%;
+}
+/*end grid system*/
+
+
